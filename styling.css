@@ -1,20 +1,24 @@
 
 
+body{
+    background-color: black;
+}
+
 .all-container{
-    margin: 50px;
-    border: 1px solid blue;
+    margin:50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
 }
 
 
 .calculator-body{
   display: grid;
-  gap: 10px;
-  border: 2px solid greenyellow;
+  border: 2px solid rgb(42, 58, 56);
   border-radius: 10px;
+  height: 500px;
+  background-color: rgb(57, 80, 101);
 }
 
 .display-area{
@@ -28,11 +32,12 @@
    border-radius: 10px;
    padding-right: 20px;
    padding-bottom: 20px;
-   background-color: black;
+   background-color: rgb(155, 114, 114);
+   
 }
 
  .display-area-1{
-     padding-top: 20px;
+     padding: 20px 0;
      color: azure;
  }
 
@@ -42,41 +47,43 @@
     color: white;
 }
 
-.line1{
+.line1, .line2, .line3, .line4, .line5{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-  
+  background-color: rgb(57, 80, 101);
    
 }
-
+/* 
 .line2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-    
-}
+    background-color: rgb(57, 80, 101);
+} */
 
 
-.line3{
+/* .line3{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    background-color: rgb(57, 80, 101);
 }
 
 .line4{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-}
+    background-color: rgb(57, 80, 101);
+} */
 
-.line5{
+ .line5{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
     gap: 5px;
     border-radius: 10px;
     
-}
+} 
 
 
 button{
